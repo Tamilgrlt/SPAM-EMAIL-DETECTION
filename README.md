@@ -1,10 +1,8 @@
- SPAM-EMAIL-DETECTION
- 
 COMPANY : CODTECH IT SOLUTION
 
-NAME : TAMILSELVAN G
+NAME : DEEPAK T
 
-INTERN ID :CTIS4802
+INTERN ID :CTIS5745
 
 DOMAIN : PYTHON PROGRAMMING
 
@@ -12,44 +10,54 @@ DURATION : 8 WEEKS
 
 MENTOR : NEELA SANTHOSH
 
-1.PROJECT OVERVIEW :
+PROJECT OVERVIEW :
 
-The Spam Email Detection System is a machine learning project that automatically classifies email messages as Spam or Ham (Not Spam). The system processes email text data, converts it into numerical features, and trains a machine learning model to identify patterns commonly found in spam emails. The project is implemented using Python and the Scikit-learn library. This solution demonstrates how machine learning can be used to automate email filtering and reduce unwanted messages.
+Email communication is one of the most widely used methods of communication in the digital world. However, a large number of unwanted or malicious emails known as spam are sent daily. These spam emails may contain advertisements, phishing links, or harmful content. Detecting and filtering spam emails is important to protect users from fraud and improve email security.This project focuses on building a machine learning model that can automatically classify emails as Spam or Not Spam (Ham) using text classification techniques.
 
-The Spam Email Detection System is a machine learning project that automatically classifies email messages as Spam or Ham (Not Spam). The system processes email text data, converts it into numerical features, and trains a machine learning model to identify patterns commonly found in spam emails. The project is implemented using Python and the Scikit-learn library. This solution demonstrates how machine learning can be used to automate email filtering and reduce unwanted messages.
+OBJECTIVE :
 
-OBJECTIVE:
+The main objective of this project is to develop a predictive machine learning model that can analyze email messages and classify them into spam or non-spam categories with high accuracy. This helps in automatically filtering unwanted emails and improving email management systems.
 
-To develop a machine learning model for spam email classification.
+DATASET :
 
-To understand text preprocessing techniques for machine learning.
+The dataset used in this project contains a collection of email messages labeled as spam or ham (not spam).
+Each message in the dataset has two columns:
 
-To train and evaluate a predictive model using Scikit-learn.
+* Label – Indicates whether the message is spam or not spam
+* Message – The actual text content of the email
 
-To automatically identify spam and legitimate emails.
+DATA PREPROCESSING :
 
-FEATURES:
+Before training the model, the dataset undergoes preprocessing steps to prepare the text data for machine learning algorithms. 
 
-Automatic spam email detection
+* Converting labels (ham/spam) into numeric values (0 and 1)
+* Cleaning and preparing the text data
+* Splitting the dataset into training and testing sets
+* Converting text messages into numerical features using TF-IDF Vectorization
+TF-IDF helps in transforming textual data into a format that machine learning algorithms can understand.
 
-Text preprocessing using CountVectorizer
+MODEL IMPLEMENTATAION :
 
-Machine learning model training
+A machine learning classification algorithm is used to build the spam detection model.
+In this project, a classifier such as Support Vector Machine (SVM) or Naive Bayes is trained using the processed dataset.
+The model learns patterns from the training data and then predicts whether a new email message is spam or not spam.
 
-Dataset splitting into training and testing data
+MODEL EVALUATION :
 
-Model evaluation using accuracy score
+After training the model, its performance is evaluated using several metrics:
+* Accuracy Score – Measures how correctly the model classifies emails
+* Confusion Matrix – Shows correct and incorrect predictions
+* ROC Curve / AUC Score – Evaluates the classification performance of the model
+These evaluation methods help determine how well the model performs on unseen data.
 
-Prediction for new email messages
+RESULT :
 
-TECHNOLOGIES USED:
+The trained model achieves high accuracy in detecting spam emails.
+The confusion matrix and ROC curve show that the model effectively distinguishes between spam and non-spam messages.
+The system can take a new email message as input and automatically predict whether it is spam or not.
 
-Python – Used for implementing the machine learning model.
+OUTPUT:
 
-pandas – Used for handling and managing the dataset.
-
-Scikit-learn – Used for building and evaluating the machine learning model.
-
-
-
-
+<img width="536" height="470" alt="Image" src="https://github.com/user-attachments/assets/71f42c9b-d9f9-4cef-80ce-981e275c5b5f" />
+<img width="510" height="393" alt="Image" src="https://github.com/user-attachments/assets/ee6cca79-649b-496d-87be-5d31bbc7bec4" />
+<img width="481" height="504" alt="Image" src="https://github.com/user-attachments/assets/f238a35a-96d2-4526-87e0-80d21f8f926e" />
