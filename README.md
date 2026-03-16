@@ -16,7 +16,7 @@ MENTOR : NEELA SANTHOSH
 
 The Spam Email Detection System is a machine learning project that automatically classifies email messages as Spam or Ham (Not Spam). The system processes email text data, converts it into numerical features, and trains a machine learning model to identify patterns commonly found in spam emails. The project is implemented using Python and the Scikit-learn library. This solution demonstrates how machine learning can be used to automate email filtering and reduce unwanted messages.
 
-2. Objective
+2. OBJECTIVE:
 
 To develop a machine learning model for spam email classification.
 
@@ -26,7 +26,7 @@ To train and evaluate a predictive model using Scikit-learn.
 
 To automatically identify spam and legitimate emails.
 
-3. Features
+3. FEATURES:
 
 Automatic spam email detection
 
@@ -40,7 +40,7 @@ Model evaluation using accuracy score
 
 Prediction for new email messages
 
-4. Technologies Used
+4. TECHNOLOGIES USED:
 
 Python – Used for implementing the machine learning model.
 
