@@ -42,7 +42,7 @@ Model evaluation using accuracy score
 
 Prediction for new email messages
 
-TECHNOLOGIES USSED:
+TECHNOLOGIES USED:
 
 Python – Used for implementing the machine learning model.
 
