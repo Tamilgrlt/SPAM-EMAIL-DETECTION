@@ -14,41 +14,36 @@ MENTOR : NEELA SANTHOSH
 
 1.PROJECT OVERVIEW :
 
-This Python project is designed to create a Spam Email Detection Model. It collects email text data, processes the text using machine learning techniques, and classifies the messages as Spam or Ham (Not Spam). The final output predicts whether a new email message is spam or not.
+The Spam Email Detection System is a machine learning project that automatically classifies email messages as Spam or Ham (Not Spam). The system processes email text data, converts it into numerical features, and trains a machine learning model to identify patterns commonly found in spam emails. The project is implemented using Python and the Scikit-learn library. This solution demonstrates how machine learning can be used to automate email filtering and reduce unwanted messages.
 
-1. Libraries
+2. Objective
 
-1. pandas Library
-Pandas is used to store and manage the dataset in a structured table format called a DataFrame, which makes it easy to handle email data.
+To develop a machine learning model for spam email classification.
 
-2. Scikit-learn Library
-Scikit-learn is used to build and train the machine learning model for spam classification.
-3. NumPy Library
-NumPy helps in handling numerical data during the machine learning process.
+To understand text preprocessing techniques for machine learning.
 
-2. Key Variables
+To train and evaluate a predictive model using Scikit-learn.
 
-1. Dataset
-Contains email messages and their labels (spam or ham).
-2. Feature Data (X)
-The email text converted into numeric vectors using CountVectorizer.
+To automatically identify spam and legitimate emails.
 
-3. Target Data (y)
-The labels that represent whether an email is spam or ham.
+3. Features
 
-3. Functions
-1. Text Vectorization
+Automatic spam email detection
 
-The email text is converted into numeric form using CountVectorizer, allowing the machine learning model to process text data.
+Text preprocessing using CountVectorizer
 
-2. Training the Model
+Machine learning model training
 
-The dataset is split into training and testing sets, and the Naive Bayes classifier is trained using the training data.
+Dataset splitting into training and testing data
 
-3. Model Evaluation
+Model evaluation using accuracy score
 
-The trained model is evaluated using accuracy score and classification report to measure how well it predicts spam emails.
+Prediction for new email messages
 
-4. Prediction
+4. Technologies Used
 
-The model can take a new email message as input and classify it as Spam or Ham.
+Python – Used for implementing the machine learning model.
+
+pandas – Used for handling and managing the dataset.
+
+Scikit-learn – Used for building and evaluating the machine learning model.
